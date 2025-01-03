@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from pathlib import Path
 import crud_functions_2
 
-api = '7472265479:AAE3x-1wSugCwZJ8vvdQLQJsYZr5AMYB6yA'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
